@@ -13,6 +13,6 @@ describe('<Game />', () => {
 
     it('should have make your guess in state on load', () => {
         const wrapper = shallow(<Game />);
-        expect(wrapper.state('feedback')).to.equal('Make your guess!')
+        expect(wrapper.state('feedback')).to.equal('Make your guess!');
     })
 });

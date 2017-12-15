@@ -1,11 +1,11 @@
 import React from 'react'
 import config from '../testConfig'
-import GuessList from '../guess-list'
+import AuralStatus from '../aural-status'
 import { shallow } from 'enzyme'
 import { expect } from 'chai'
 
-describe('<GuessList />', () => {
+describe('<AuralStatus />', () => {
     it('should render without crashing', () => {
-        shallow(<GuessList guesses={[]} />)
+        shallow(<AuralStatus />)
     })
 })
